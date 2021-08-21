@@ -1,0 +1,76 @@
+// Banner de Presentacion
+.bannerImg{
+
+    h1{
+        font-size: 50px;
+        font-family: $poppins;
+        position: absolute;
+        color: white;
+        left: 30%;
+        top: 20%;
+    }
+
+    .imagenBanner{
+        width: 100%;
+        height: 500px;
+        background-color: $rosa;
+    }
+}
+
+// Banner de Informacion
+.banner{
+    background-color: $beige;
+
+    h3{
+        text-align: center;
+        font-family: $montserrat;
+        font-size: 28px;
+        color: $rosa;
+        padding-top: 15px;
+    }
+
+    .contenidoBanner{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5px;
+        // Texto
+        text-align: center;
+        font-family: $montserrat;
+        font-weight: 500;
+
+        p{
+            padding-top: 10px;
+            width: 300px;
+        }
+
+
+        img{
+            transition: 2s;
+            width: 150px;
+            height: 150px;
+        }
+
+        img:hover{
+             transform: rotateY(360deg);
+        }
+    }
+
+    .botonBanner{
+        text-align: center;
+        padding-bottom: 20px;
+
+        a{
+            background-color: $rosa;
+            padding: 10px;
+            border-radius: 50px;
+            font-family: $montserrat;
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            font-weight: 700;
+            padding: 10px;
+        }
+    }
+}

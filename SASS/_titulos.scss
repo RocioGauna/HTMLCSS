@@ -1,0 +1,28 @@
+// Titulos
+.textTitulo{
+    position: relative;
+    padding: 30px;
+
+    .titulo{
+        position: absolute;
+        padding: 0 15px 0 15px;
+        left: 30%;
+        top: 20px;
+        background: white;
+        font-family: $montserrat;
+        font-weight: 500;
+        font-size: 30px;
+    }
+}
+
+.tituloTestimonios{
+    background-color: $marron;
+    .tituloT{
+        text-align: center;
+        margin: 0;
+        color: $beige;
+        font-family: $montserrat;
+        font-size: 30px;
+        padding: 10px 0 10px 0;
+    }
+}

@@ -1,0 +1,84 @@
+// Carrusel - Mascotas
+.mascotasCarrusel{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "carru sel";
+
+    .presentacionText{
+        background-color: $rosa;
+        grid-area: carru;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 50px;
+        justify-content: center;
+
+        h2{ 
+            color: white;
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 40px;
+
+            span{
+                font-weight: bold;
+            }
+        }
+
+        a{
+            background-color: #0cca98;
+            text-decoration: none;
+            font-family: $montserrat;
+            font-weight: bolder;
+            font-size: 18px;
+            width: 25%;
+            padding: 5px;
+            border-radius: 15px ;
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+        }
+    }
+
+    .presentacionImg{
+        grid-area: sel;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+// Carrusel - Testimonios
+.carousel{
+    .carousel-inner{
+        .carousel-item{
+            .card{
+                width: 100%;
+                height: 100%;
+                border: none; 
+                color: white;
+                border: none;
+
+                .card-body{
+                    background-color: $rosa;
+                    height: 500px;
+                    display: flex;
+                    align-items: left;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    .card-text{
+                        width: 70%;
+                    }
+                }
+
+                .img-fluid{
+                    width: 500px;
+                    height: 500px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}   
