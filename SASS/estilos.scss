@@ -1,0 +1,27 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+}
+
+ul{
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+@import "footer";
+@import "navbar";
+@import "card-index";
+@import "card-mascotas";
+@import "carrusel";
+@import "titulos";
+@import "banner-index";
+@import "contacto";
+@import "sobre-nosotros";
+@import "adopcion";
+@import "variables";
+@import "mediaquerys";
