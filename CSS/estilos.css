@@ -32,7 +32,7 @@ ul li a {
   color: #fef8dd;
 }
 
-.buttom {
+.footer .buttom {
   background-color: #ea8a8a;
   border: solid 2px #ea8a8a;
   border-radius: 30px;
@@ -42,12 +42,12 @@ ul li a {
   position: relative;
 }
 
-.buttomSubmit {
+.footer .buttomSubmit {
   width: 100%;
   height: 100%;
 }
 
-.newsletter .formNewsletter .inputNewsletter {
+.footer .newsletter .formNewsletter .inputNewsletter {
   background-color: #eeb7b7;
   color: black;
   border: solid 2px #ea8a8a;
@@ -56,7 +56,7 @@ ul li a {
   border-radius: 15px;
 }
 
-.newsletter .formNewsletter .inputNewsletter label {
+.footer .newsletter .formNewsletter .inputNewsletter label {
   font-weight: 700;
   font-size: 20px;
 }
@@ -271,19 +271,17 @@ ul li a {
 }
 
 .textTitulo {
-  position: relative;
-  padding: 30px;
+  padding: 20px;
 }
 
 .textTitulo .titulo {
-  position: absolute;
   padding: 0 15px 0 15px;
   left: 30%;
   top: 20px;
-  background: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 30px;
+  text-align: center;
 }
 
 .tituloTestimonios {
@@ -597,4 +595,355 @@ ul li a {
   font-weight: 500;
   padding-bottom: 5px;
   color: white;
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .navbar {
+    z-index: 999;
+  }
+  .navbar .container-fluid .navbar-brand img {
+    padding: 10px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .navbar {
+    z-index: 999;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer a {
+    font-size: 11px;
+  }
+  .footer h4 {
+    font-size: 22px;
+  }
+  .footer .newsletter .formNewsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .newsletter .formNewsletter .inputNewsletter {
+    text-align: center;
+    width: 220px;
+  }
+  .footer .newsletter .newsletterLabel {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .footer a {
+    font-size: 15px;
+  }
+  .footer h4 {
+    font-size: 20px;
+  }
+  .footer .newsletter .formNewsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .newsletter .formNewsletter .inputNewsletter {
+    width: 220px;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .mainAdopcion {
+    grid-template-areas: "formulario formulario";
+    background-color: #ea8a8a;
+  }
+  .mainAdopcion .mainImg img {
+    width: 0;
+    height: 0;
+  }
+  .mainAdopcion .form {
+    width: 200%;
+  }
+  .mainAdopcion .form .container {
+    padding-top: 10px;
+  }
+  .mainAdopcion .form .container .contenido--form {
+    width: 200%;
+  }
+  .mainAdopcion .form .formDiv {
+    padding-bottom: 10px;
+  }
+  .mainAdopcion .form .formDiv label {
+    font-size: 12px;
+  }
+  .mainAdopcion .form .formDiv input {
+    width: 95%;
+  }
+  .mainAdopcion .form .formDiv textarea {
+    width: 95%;
+    height: 100px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .mainAdopcion .mainImg img {
+    object-fit: cover;
+  }
+  .mainAdopcion .form .container .contenido__buttom--form {
+    padding-bottom: 15px;
+  }
+  .mainAdopcion .form .container .contenido--form {
+    width: 200%;
+  }
+  .mainAdopcion .form .formDiv {
+    padding: 5px;
+  }
+  .mainAdopcion .form .formDiv input {
+    width: 300px;
+    height: 25px;
+  }
+  .mainAdopcion .form .formDiv textarea {
+    width: 300px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .bannerImg h1 {
+    font-size: 18px;
+    left: 20%;
+    top: 15%;
+    width: 200px;
+    text-align: center;
+  }
+  .bannerImg .imagenBanner {
+    height: 200px;
+  }
+  .banner h3 {
+    font-size: 20px;
+  }
+  .banner .contenidoBanner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner .contenidoBanner p {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .bannerImg h1 {
+    font-size: 30px;
+    left: 28%;
+    top: 30%;
+  }
+  .banner .contenidoBanner p {
+    width: 200px;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .contenedorImgIndex {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .contenedorImgIndex .cardIndex {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .contenedorImgIndex {
+    margin: 15px;
+  }
+  .contenedorImgIndex .cardIndex {
+    width: 15rem;
+    height: 400px;
+  }
+  .contenedorImgIndex .cardIndex .cardIndexText h3 {
+    font-size: 18px;
+  }
+  .contenedorImgIndex .cardIndex .cardIndexText p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .mascotasCarrusel .presentacionText {
+    padding: 15px;
+  }
+  .mascotasCarrusel .presentacionText h2 {
+    font-size: 21px;
+  }
+  .mascotasCarrusel .presentacionText h2 span {
+    font-weight: bold;
+  }
+  .mascotasCarrusel .presentacionText a {
+    font-size: 10px;
+    width: 100%;
+  }
+  .mascotasCarrusel .presentacionImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel .carousel-inner .carousel-item .card {
+    width: 100%;
+    height: 550px;
+    border: none;
+    color: white;
+    border: none;
+  }
+  .carousel .carousel-inner .carousel-item .card .card-body {
+    background-color: #ea8a8a;
+    height: 500px;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .carousel .carousel-inner .carousel-item .card .card-body .card-text {
+    width: 100%;
+  }
+  .carousel .carousel-inner .carousel-item .card .img-fluid {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .mascotasCarrusel .presentacionText {
+    padding: 15px;
+  }
+  .mascotasCarrusel .presentacionText h2 {
+    font-size: 21px;
+  }
+  .mascotasCarrusel .presentacionText a {
+    font-size: 10px;
+    width: 100%;
+  }
+  .carousel .carousel-inner .carousel-item .card .card-body {
+    height: 350px;
+    width: 100%;
+  }
+  .carousel .carousel-inner .carousel-item .card .img-fluid {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .mainContacto .formContacto {
+    background-color: #ea8a8a;
+    background-image: linear-gradient(180deg, #ea8a8a 0%, #d8a0a0 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainContacto .formContacto .tituloContacto h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .mainContacto .contenidoContacto .textForm h4 {
+    font-size: 12px;
+  }
+  .mainContacto .contenidoContacto input {
+    width: 200px;
+    height: 25px;
+  }
+  .mainContacto .contenidoContacto textarea {
+    width: 250px;
+    height: 100px;
+  }
+  .mainContacto .redesContacto .tituloContacto h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .mainContacto .redesContacto .iconsContacto img {
+    margin: 11px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .contenedorImgMasc {
+    margin-top: 0;
+  }
+  .contenedorImgMasc .cardMasc {
+    width: 15rem;
+  }
+  .contenedorImgMasc .cardMasc img {
+    height: 200px;
+  }
+  .contenedorImgMasc .cardMasc .cardMascText h3 {
+    font-size: 22px;
+  }
+  .contenedorImgMasc .cardMasc .cardMascText p {
+    padding-top: 5px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .contenedor--nosotros .contenedor__texto--nosotros {
+    font-size: 20px;
+  }
+  .contenedor--nosotros .contenedor__titulo--nosotros h2 {
+    top: 25%;
+    left: 12%;
+    font-size: 25px;
+  }
+  .contenedor--nosotros .contenedor__h3--nosotros {
+    font-size: 28px;
+  }
+  .contenedor--nosotros .contenedor__parrafo--nosotros p {
+    width: 280px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .contenedor--nosotros .contenedor__texto--nosotros {
+    font-size: 20px;
+  }
+  .contenedor--nosotros .contenedor__titulo--nosotros h2 {
+    top: 45%;
+    left: 20%;
+    font-size: 50px;
+  }
+  .contenedor--nosotros .contenedor__parrafo--nosotros p {
+    width: 600px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 472px) and (min-width: 300px) {
+  .textTitulo {
+    padding: 15px;
+  }
+  .textTitulo .titulo {
+    font-size: 20px;
+    text-align: center;
+  }
+  .tituloTestimonios .tituloT {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  .textTitulo .titulo {
+    font-size: 28px;
+    text-align: center;
+  }
 }
