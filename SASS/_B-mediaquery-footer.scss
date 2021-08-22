@@ -1,0 +1,63 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+    // Footer
+    .footer{
+        // Secciones
+        flex-direction: column;
+        justify-content: center;
+
+        a{
+            font-size: 11px;
+        }
+
+        h4{
+            font-size: 22px;
+        }
+
+        // Newsletter
+        .newsletter{
+            .formNewsletter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .inputNewsletter{
+                    text-align: center;
+                    width: 220px;
+                }
+            }
+
+            .newsletterLabel{
+                font-size: 22px;
+                
+            }
+        }
+    }
+}
+
+// Responsive: 767px a 1023px
+@media (max-width: 1023px) and (min-width: 767px){
+    // Footer
+    .footer{
+        a{
+            font-size: 15px;
+        }
+
+        h4{
+            font-size: 20px;
+        }
+
+        // Newsletter
+        .newsletter{
+            .formNewsletter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .inputNewsletter{
+                    width: 220px;
+                }
+            }
+        }
+    }
+}

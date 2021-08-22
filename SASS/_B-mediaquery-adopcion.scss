@@ -1,0 +1,80 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+    .mainAdopcion{
+        grid-template-areas: "formulario formulario";
+        background-color: $rosa;
+        // Grid - IMG
+        .mainImg{
+            img{
+                width: 0;
+                height: 0;
+            }
+        }
+        // Grid - Form
+        .form{
+            width: 200%;
+            .container{
+                padding-top: 10px;
+
+                .contenido--form{
+                    width: 200%;
+                }
+            }
+            
+            .formDiv{
+                padding-bottom: 10px;
+
+                label{
+                    font-size: 12px;
+                }
+        
+                input{
+                    width: 95%;
+                }
+        
+                textarea{
+                    width: 95%;
+                    height: 100px;
+                } 
+            }
+        }     
+    }  
+}
+
+// Responsive: 767px a 1023px
+@media (max-width: 1023px) and (min-width: 767px){
+    .mainAdopcion{
+        // Grid - IMG
+        .mainImg{
+            img{
+                object-fit: cover;
+            }
+        }
+    
+        // Grid - FORM
+        .form{
+            .container{
+                .contenido__buttom--form{
+                    padding-bottom: 15px;
+                }
+        
+                .contenido--form{
+                    width: 200%;
+                }
+            }
+            
+            .formDiv{
+                padding: 5px;
+                input{
+                    width: 300px;
+                    height: 25px;
+                }
+        
+                textarea{
+                    width: 300px;
+                    height: 100px;
+                }
+            }
+        }      
+    }
+}

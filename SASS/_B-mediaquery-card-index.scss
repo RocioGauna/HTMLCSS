@@ -1,0 +1,36 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+     // Card del Index
+     .contenedorImgIndex{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        .cardIndex{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+// Responsive: 767px a 1023px
+@media (max-width: 1023px) and (min-width: 767px){
+     // Card del Index
+     .contenedorImgIndex{
+        margin: 15px;
+        .cardIndex{
+            width: 15rem;
+            height: 400px;
+
+            .cardIndexText{
+                h3{
+                    font-size: 18px;
+                }
+
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

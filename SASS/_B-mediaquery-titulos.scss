@@ -1,0 +1,30 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+    // Titulos generales
+    .textTitulo{
+        padding: 15px;
+
+        .titulo{
+            font-size: 20px;
+            text-align: center;   
+        }
+    }
+
+    // Titulo - Testimonios
+    .tituloTestimonios{
+        .tituloT{
+            font-size: 22px;
+        }
+    }
+}
+
+// Responsive: 767px a 1023px
+@media (max-width: 1023px) and (min-width: 767px){
+    // Titulos generales
+    .textTitulo{
+        .titulo{
+            font-size: 28px;
+            text-align: center;   
+        }
+    }
+}

@@ -1,0 +1,53 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+    // Banner de presentacion
+    .bannerImg{
+        h1{
+            font-size: 18px;
+            left: 20%;
+            top: 15%;
+            width: 200px;
+            text-align: center;
+        }
+
+        .imagenBanner{
+            height: 200px;
+        }
+    }
+    // Banner informativo
+    .banner{
+        h3{
+            font-size: 20px;
+        }
+
+        .contenidoBanner{
+            flex-direction: column;
+            align-items: center;
+
+            p{
+                width: 250px;
+            }
+        }
+    }
+}
+
+// Responsive: 767px a 1023px
+@media (max-width: 1023px) and (min-width: 767px){
+    // Banner de presentacion
+    .bannerImg{
+        h1{
+            font-size: 30px;
+            left: 28%;
+            top: 30%;
+        }
+    }
+
+    // Banner de Informacion
+    .banner{
+        .contenidoBanner{
+            p{
+                width: 200px;
+            }
+        }
+    }
+}

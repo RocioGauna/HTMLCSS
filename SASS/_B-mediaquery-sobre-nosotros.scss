@@ -1,0 +1,53 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+    // Sobre la pagina
+    .contenedor--nosotros{
+        .contenedor__texto--nosotros{
+            font-size: 20px;
+        }
+
+        .contenedor__titulo--nosotros{
+            h2{
+                top: 25%;
+                left: 12%;
+                font-size: 25px;
+            }
+        }
+
+        .contenedor__h3--nosotros{
+            font-size: 28px;
+        }
+
+        .contenedor__parrafo--nosotros{
+            p{
+                width: 280px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+// Responsive: 767px a 1023px
+@media (max-width: 1023px) and (min-width: 767px){
+    // Sobre la pagina
+    .contenedor--nosotros{
+        .contenedor__texto--nosotros{
+            font-size: 20px;
+        }
+    
+         .contenedor__titulo--nosotros{
+            h2{
+                top: 45%;
+                left: 20%;
+                font-size: 50px;
+            }
+        }
+    
+        .contenedor__parrafo--nosotros{
+            p{
+                width: 600px;
+                font-size: 18px;
+            }
+        }
+    }
+}

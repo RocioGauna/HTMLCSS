@@ -1,0 +1,24 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+    .contenedorImgMasc{
+        margin-top: 0;
+        .cardMasc{
+            width: 15rem;
+
+            img{
+                height: 200px;
+            }
+    
+            .cardMascText{
+                h3{
+                    font-size: 22px;
+                }
+    
+                p{
+                    padding-top: 5px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+// Responsive: 300px a 472px
+@media (max-width: 472px) and (min-width: 300px){
+    // Navbar
+    .navbar{
+        z-index: 999;
+        .container-fluid{
+            .navbar-brand{
+                img{
+                    padding: 10px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+// Responsive: 767px a 1023px
+@media (max-width: 1023px) and (min-width: 767px){
+    .navbar{
+        z-index: 999;
+    }
+}
+

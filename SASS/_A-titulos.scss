@@ -1,17 +1,14 @@
 // Titulos
 .textTitulo{
-    position: relative;
-    padding: 30px;
-
+    padding: 20px;
     .titulo{
-        position: absolute;
         padding: 0 15px 0 15px;
         left: 30%;
         top: 20px;
-        background: white;
         font-family: $montserrat;
         font-weight: 500;
         font-size: 30px;
+        text-align: center;
     }
 }
 
