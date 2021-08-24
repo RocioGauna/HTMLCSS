@@ -3,15 +3,11 @@
     // Banner de presentacion
     .bannerImg{
         h1{
-            font-size: 18px;
-            left: 20%;
-            top: 15%;
-            width: 200px;
+            font-size: 15px;
+            left: 25%;
+            top: 13%;
+            width: 150px;
             text-align: center;
-        }
-
-        .imagenBanner{
-            height: 200px;
         }
     }
     // Banner informativo
@@ -28,6 +24,7 @@
                 width: 250px;
             }
         }
+        
     }
 }
 
@@ -36,9 +33,16 @@
     // Banner de presentacion
     .bannerImg{
         h1{
-            font-size: 30px;
-            left: 28%;
-            top: 30%;
+            font-size: 35px;
+            left: 35%;
+            top: 18%;
+            width: 250px;
+            text-align: center;
+        }
+
+        .imagenBanner{
+            width: 100%;
+            object-fit: cover;
         }
     }
 

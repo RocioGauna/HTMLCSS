@@ -2,7 +2,8 @@
 @media (max-width: 472px) and (min-width: 300px){
     // Titulos generales
     .textTitulo{
-        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
 
         .titulo{
             font-size: 20px;
@@ -12,8 +13,11 @@
 
     // Titulo - Testimonios
     .tituloTestimonios{
+        padding: 3px;
+
         .tituloT{
             font-size: 22px;
+            margin: 5px;
         }
     }
 }
@@ -22,6 +26,8 @@
 @media (max-width: 1023px) and (min-width: 767px){
     // Titulos generales
     .textTitulo{
+        padding-top: 15px;
+        padding-bottom: 0;
         .titulo{
             font-size: 28px;
             text-align: center;   

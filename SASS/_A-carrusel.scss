@@ -59,6 +59,7 @@
                 border: none; 
                 color: white;
                 border: none;
+                
 
                 .card-body{
                     background-color: $rosa;
@@ -67,9 +68,14 @@
                     align-items: left;
                     justify-content: center;
                     flex-direction: column;
+                    
+                    .card-title{
+                        font-size: 30px;
+                    }
 
                     .card-text{
                         width: 70%;
+                        font-size: 22px;
                     }
                 }
 
