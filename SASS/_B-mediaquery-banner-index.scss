@@ -4,10 +4,14 @@
     .bannerImg{
         h1{
             font-size: 15px;
-            left: 25%;
+            left: 22%;
             top: 13%;
-            width: 150px;
             text-align: center;
+        }
+
+        .imagenBanner{
+            width: 100%;
+            object-fit: cover;
         }
     }
     // Banner informativo
@@ -33,10 +37,10 @@
     // Banner de presentacion
     .bannerImg{
         h1{
-            font-size: 35px;
-            left: 35%;
-            top: 18%;
-            width: 250px;
+            font-size: 30px;
+            left: 27%;
+            top: 20%;
+            // width: 250px;
             text-align: center;
         }
 
