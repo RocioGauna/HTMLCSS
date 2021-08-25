@@ -93,6 +93,11 @@ ul li a {
   margin: 10px;
 }
 
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  color: #eeb7b7;
+  padding-top: 3px;
+}
+
 .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu {
   background-color: #eeb7b7;
 }
