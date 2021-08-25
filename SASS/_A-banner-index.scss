@@ -1,22 +1,25 @@
 // Banner de Presentacion
-.bannerImg{
+.masterContainer{
+    max-width: 1488px;
+    margin: auto;
 
-    h1{
-        font-size: 50px;
-        font-family: $poppins;
-        position: absolute;
-        color: white;
-        left: 30%;
-        top: 25%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .imagenBanner{
-        width: 100%;
+    .bannerImg{
+        background-image: url(/Archivos/banner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-color: $rosa;
+        height: 80vh;
         object-fit: cover;
+        display: flex;
+        justify-content: center;
+
+        h1{
+            margin-top: 4rem;
+            font-size: 50px;
+            font-family: $poppins;
+            color: white;
+        }
     }
 }
 

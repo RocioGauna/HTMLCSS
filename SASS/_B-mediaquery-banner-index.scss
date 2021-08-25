@@ -1,19 +1,16 @@
 // Responsive: 300px a 472px
 @media (max-width: 472px) and (min-width: 300px){
     // Banner de presentacion
-    .bannerImg{
-        h1{
-            font-size: 15px;
-            left: 22%;
-            top: 13%;
-            text-align: center;
-        }
-
-        .imagenBanner{
-            width: 100%;
-            object-fit: cover;
+    .masterContainer{
+        .bannerImg{
+            height: 30vh;
+            h1{
+                margin-top: 2rem;
+                font-size: 18px;
+            }
         }
     }
+    
     // Banner informativo
     .banner{
         h3{
@@ -35,18 +32,13 @@
 // Responsive: 767px a 1023px
 @media (max-width: 1023px) and (min-width: 767px){
     // Banner de presentacion
-    .bannerImg{
-        h1{
-            font-size: 30px;
-            left: 27%;
-            top: 20%;
-            // width: 250px;
-            text-align: center;
-        }
-
-        .imagenBanner{
-            width: 100%;
-            object-fit: cover;
+    .masterContainer{
+        .bannerImg{
+            height: 50vh;
+            h1{
+                margin-top: 2rem;
+                font-size: 30px;
+            }
         }
     }
 

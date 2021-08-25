@@ -303,22 +303,28 @@ ul li a {
   font-weight: bold;
 }
 
-.bannerImg h1 {
-  font-size: 50px;
-  font-family: "Poppins", sans-serif;
-  position: absolute;
-  color: white;
-  left: 30%;
-  top: 25%;
+.masterContainer {
+  max-width: 1488px;
+  margin: auto;
+}
+
+.masterContainer .bannerImg {
+  background-image: url(/Archivos/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ea8a8a;
+  height: 80vh;
+  object-fit: cover;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.bannerImg .imagenBanner {
-  width: 100%;
-  background-color: #ea8a8a;
-  object-fit: cover;
+.masterContainer .bannerImg h1 {
+  margin-top: 4rem;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .banner {
@@ -721,15 +727,12 @@ ul li a {
 }
 
 @media (max-width: 472px) and (min-width: 300px) {
-  .bannerImg h1 {
-    font-size: 15px;
-    left: 22%;
-    top: 13%;
-    text-align: center;
+  .masterContainer .bannerImg {
+    height: 30vh;
   }
-  .bannerImg .imagenBanner {
-    width: 100%;
-    object-fit: cover;
+  .masterContainer .bannerImg h1 {
+    margin-top: 2rem;
+    font-size: 18px;
   }
   .banner h3 {
     font-size: 20px;
@@ -744,15 +747,12 @@ ul li a {
 }
 
 @media (max-width: 1023px) and (min-width: 767px) {
-  .bannerImg h1 {
-    font-size: 30px;
-    left: 27%;
-    top: 20%;
-    text-align: center;
+  .masterContainer .bannerImg {
+    height: 50vh;
   }
-  .bannerImg .imagenBanner {
-    width: 100%;
-    object-fit: cover;
+  .masterContainer .bannerImg h1 {
+    margin-top: 2rem;
+    font-size: 30px;
   }
   .banner .contenidoBanner p {
     width: 200px;
