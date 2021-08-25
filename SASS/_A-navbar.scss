@@ -33,6 +33,13 @@
                 margin: 10px;
             }
 
+            // Animacion de la lista del Nav
+            a:hover{
+                color: $rosaclaro;
+                padding-top: 3px;
+            }
+
+            // Menu hamburguesa
             .dropdown-menu{
                 background-color: $rosaclaro;
 
@@ -47,4 +54,5 @@
         }
     }
    
+
 }
