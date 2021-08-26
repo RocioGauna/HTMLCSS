@@ -16,6 +16,7 @@
         }
     }
 
+    // Animacion del Logo
     @keyframes aparecer{
         0% {
           opacity: 0;
@@ -23,36 +24,26 @@
         100% {
           opacity: 4;
         }
-     } 
+    } 
 
+    // Estilos de la lista y menu hamburguesa
     .container-fluid{
-        .collapse .navbar-nav .nav-item{
-            a{
-                color: white;
-                font-size: 25px;
-                margin: 10px;
-            }
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    a{
+                        color: white;
+                        font-size: 25px;
+                        margin: 10px;
+                    }
 
-            // Animacion de la lista del Nav
-            a:hover{
-                color: $rosaclaro;
-                padding-top: 3px;
-            }
-
-            // Menu hamburguesa
-            .dropdown-menu{
-                background-color: $rosaclaro;
-
-                .dropdown-item{
-                    width: 250px;
-                    font-size: 18px;
-                }
-                .dropdown-item:hover{
-                    background-color: $rosa;
+                    // Animacion al pasar el cursor o seleccionar
+                    a:hover{
+                        color: $rosaclaro;
+                        padding-top: 3px;
+                    }
                 }
             }
         }
-    }
-   
-
+    }        
 }
