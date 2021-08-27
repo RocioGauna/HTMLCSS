@@ -42,9 +42,11 @@ ul li a {
   position: relative;
 }
 
-.footer .buttomSubmit {
+.footer .buttom .buttomSubmit {
   width: 100%;
   height: 100%;
+  position: relative;
+  top: -2px;
 }
 
 .footer .newsletter .formNewsletter .inputNewsletter {
@@ -213,7 +215,7 @@ ul li a {
 }
 
 .mascotasCarrusel .presentacionText a {
-  background-color: #0cca98;
+  background-color: #382929;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;

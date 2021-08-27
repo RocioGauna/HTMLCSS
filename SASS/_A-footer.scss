@@ -1,12 +1,4 @@
-// Estilos
-$rosa: #ea8a8a;
-$marron: #382929;
-$rosaclaro: #eeb7b7;
-$bordermarron: #382929;
-$beige: #fef8dd;
-
-$montserrat: 'Montserrat', sans-serif;
-$poppins: 'Poppins', sans-serif;
+@import "A-variables";
 
 // Footer
 .footer{
@@ -38,11 +30,13 @@ $poppins: 'Poppins', sans-serif;
         width: 30px;
         height: 30px;
         position: relative;
-    }
 
-    .buttomSubmit{
-        width: 100%;
-        height: 100%;
+        .buttomSubmit{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: -2px;
+        } 
     }
 
     // Input Newsletter - Footer
