@@ -270,7 +270,8 @@ ul li a {
 }
 
 .textTitulo {
-  padding: 20px;
+  padding-top: 3rem;
+  padding-bottom: 10px;
 }
 
 .textTitulo .titulo {
@@ -303,7 +304,7 @@ ul li a {
 }
 
 .masterContainer .bannerImg {
-  background-image: url(/Archivos/banner.png);
+  background-image: url(./Archivos/banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -323,6 +324,7 @@ ul li a {
 
 .banner {
   background-color: #fef8dd;
+  padding: 2rem;
 }
 
 .banner h3 {
@@ -331,6 +333,7 @@ ul li a {
   font-size: 28px;
   color: #ea8a8a;
   padding-top: 15px;
+  margin-bottom: 3rem;
 }
 
 .banner .contenidoBanner {
@@ -360,6 +363,7 @@ ul li a {
 .banner .botonBanner {
   text-align: center;
   padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 .banner .botonBanner a {
@@ -501,12 +505,14 @@ ul li a {
   font-size: 40px;
   text-shadow: 1px 1px 1px #ea8a8a;
   color: #382929;
+  padding-top: 3rem;
 }
 
 .contenedor--nosotros .contenedor__parrafo--nosotros {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 2rem;
 }
 
 .contenedor--nosotros .contenedor__parrafo--nosotros p {
@@ -515,8 +521,8 @@ ul li a {
   font-size: 20px;
   color: #382929;
   font-family: "Montserrat", sans-serif;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0px 50px 0px 50px;
 }
 
